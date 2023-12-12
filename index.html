@@ -1,440 +1,629 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portofolio</title>
     <link rel="stylesheet" href="dist/output.css" />
-</head>
-<body>
+  </head>
+  <body>
     <!-- header start -->
-    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
-        <div class="container">
-            <div class="flex items-center justify-between relative"> 
-                <div class="px-4">
-                    <a href="#home" class="font-bold text-lg text-primary block py-6">
-                        Jiel Vayad Ramadhan
-                    </a>
-                </div>
-                <div class="flex items-center px-4">
-                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
-                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
-                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
-                    </button>
-                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-                        <ul class="block lg:flex">
-                            <li class="group">
-                                <a href="#home" class="text-base text-black py-2 mx-8 flex group-hover:text-primary ">
-                                    Beranda
-                                </a>
-                            </li>
-                            <li class="group">
-                                <a href="#about" class="text-base text-black py-2 mx-8 flex group-hover:text-primary ">
-                                    About
-                                </a>
-                            </li>
-                            <li class="group">
-                                <a href="#portofolio" class="text-base text-black py-2 mx-8 flex group-hover:text-primary ">
-                                    Portofolio
-                                </a>
-                            </li>
-                            <li class="group">
-                                <a href="#clients" class="text-base text-black py-2 mx-8 flex group-hover:text-primary ">
-                                    Clients
-                                </a>
-                            </li>
-                            <li class="group">
-                                <a href="#blog" class="text-base text-black py-2 mx-8 flex group-hover:text-primary ">
-                                    Blog
-                                </a>
-                            </li>
-                            <li class="group">
-                                <a href="#contact" class="text-base text-black py-2 mx-8 flex group-hover:text-primary ">
-                                    Contact
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary block py-6">
+              Jiel Vayad Ramadhan
+            </a>
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-primary"
+                  >
+                    Beranda
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-primary"
+                  >
+                    About
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#portofolio"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-primary"
+                  >
+                    Portofolio
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#clients"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-primary"
+                  >
+                    Pendidikan
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#blog"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-primary"
+                  >
+                    Blog
+                  </a>
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-black py-2 mx-8 flex group-hover:text-primary"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
+      </div>
     </header>
     <!-- header end-->
     <section id="home" class="pt-36">
-        <div class="container">
-           <div class="flex flex-wrap">
-            <div class="w-full self-center px-4 lg:w-1/2">
-                <h1 class="text-base font-semibold text-black md:text-xl lg:text-xl">Hallo semua !!! saya 
-                    <span class="block font-bold text-primary text-4xl mb-1">
-                        Jiel Vayad Ramadhan
-                    </span></h1>
-                <h2 class="font-medium text-jiel text-lg mb-2">Front End Developer</h2>
-                <p class="font-medium text-primary mb-10">Portofolio</p>
-                <a href="#" class="text-base font-semibold text-white bg-primary py-2 px-6 rounded-md hover:shadow-md hover:text-jiel hover:bg-opacity-80">Call me at</a>
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1
+              class="text-base font-semibold text-black md:text-xl lg:text-xl"
+            >
+              Hallo semua !!! saya
+              <span class="block font-bold text-primary text-4xl mb-1">
+                Jiel Vayad Ramadhan
+              </span>
+            </h1>
+            <h2 class="font-medium text-jiel text-lg mb-2">
+              Front End Developer
+            </h2>
+            <p class="font-medium text-primary mb-10">Portofolio</p>
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-primary py-2 px-6 rounded-md hover:shadow-md hover:text-jiel hover:bg-opacity-80"
+              >Call me at</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/2">
+            <div class="relative mt-10 lg:mt-0 lg:right-0 md:hidden">
+              <img
+                src="dist/img/jiel.png"
+                alt="jiel"
+                class="max-w-full mx-auto"
+              />
+              <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2">
+                <svg
+                  width="400"
+                  height="400"
+                  viewBox="0 0 200 200"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="#541388"
+                    d="M56.1,-51.7C72.4,-39.8,85.1,-19.9,85.1,0.1C85.2,20,72.6,40,56.3,50C40,59.9,20,59.7,6.6,53.1C-6.7,46.4,-13.4,33.3,-29.9,23.4C-46.3,13.4,-72.5,6.7,-80,-7.5C-87.5,-21.7,-76.3,-43.4,-59.8,-55.3C-43.4,-67.2,-21.7,-69.4,-0.9,-68.5C19.9,-67.6,39.8,-63.7,56.1,-51.7Z"
+                    transform="translate(100 200) scale(1.2)"
+                  />
+                </svg>
+              </span>
             </div>
-            <div class="w-full self-end px-4 lg:w-1/2">
-                <div class="relative mt-10 lg:mt-0 lg:ri">
-                    <img src="dist/img/jiel.png" alt="jiel" class="max-w-full mx-auto">
-                    <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2">
-                        <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                            <path fill="#541388" d="M56.1,-51.7C72.4,-39.8,85.1,-19.9,85.1,0.1C85.2,20,72.6,40,56.3,50C40,59.9,20,59.7,6.6,53.1C-6.7,46.4,-13.4,33.3,-29.9,23.4C-46.3,13.4,-72.5,6.7,-80,-7.5C-87.5,-21.7,-76.3,-43.4,-59.8,-55.3C-43.4,-67.2,-21.7,-69.4,-0.9,-68.5C19.9,-67.6,39.8,-63.7,56.1,-51.7Z" transform="translate(100 100) scale(1.2)"/>
-                        </svg>
-                    </span>
-                </div>
-            </div>
-           </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- about sect start-->
-    <section id="about" class="pt-36 pb-32">
-        <div class="container">
-            <div class="flex flex-wrap">
-                <div class="w-full px-4 mb-10 lg:w-1/2">
-                    <h4 class="font-bold uppercase text-primary text-lg mb-3">
-                        Tentang Saya
-                    </h4>
-                    <h2 class="font-bold text-black text-3xl mb-5 max-w-md lg:text-4xl">
-                        yuk, belajar web bareng saya
-                    </h2>
-                    <p class="font-medium text-base text-slate-500 max-w-xl lg:text-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae atque reiciendis, incidunt velit sequi obcaecati expedita.
-                    </p>
-                </div>
-                <div class="w-full px-4 lg:w-1/2">
-                    <h3 class="font-semibold text-black text-2xl mb-4 lg:text-3xl lg:pt-10">
-                        mare berteman
-                    </h3>
-                    <p class="font-medium text-base text-slate-500 mb-6 lg:text-lg">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dolore molestias labore magni facere excepturi quae?
-                    </p>
-                    <div class="flex items-center">
-                        <!--linkedin-->
-                        <a href="linkedin.com/in/jielvayadramadhan" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
-                            <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                        </a>
-                    </div>
-                </div>
+    <section id="about" class="pt-36 pb-16">
+      <div class="container">
+        <div class="w-full px-4 mb-5">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-bold uppercase text-primary text-lg mb-3">
+              about me
+            </h4>
+            <h2 class="font-bold text-black text-3xl mb-5 lg:text-4xl">
+              Front End Developer and UI/UX Designer
+            </h2>
+            <p class="font-medium text-base text-slate-500 max-w-xl lg:text-lg">
+              Web developer with extensive knowledge of HTML, CSS and
+              JavaScript, with a special passion for developing innovative UI/UX
+              solutions. Currently studying at the Universitas Negeri Jakarta,
+              Informatics and computer science education. I've been running some
+              related projects like Sekolah UI/UX and I have worked in
+              organizations like BEM prodi. here my linkedin
+            </p>
+          </div>
+          <div class="w-full px-2">
+            <div class="flex items-center">
+              <div class="max-w-xl mx-auto text-center">
+                <!--linkedin-->
+                <a
+                  href="https://linkedin.com/in/jielvayadramadhan"
+                  target="_blank"
+                  class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+                >
+                  <svg
+                    role="img"
+                    width="20"
+                    class="fill-current"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>LinkedIn</title>
+                    <path
+                      d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- about sect end-->
 
     <!--portofolio sec start-->
     <section id="portofolio" class="pt-36 pb-16 bg-slate-100">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2">
-                        Portofolio
-                    </h4>
-                    <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">
-                        prject terbaru
-                    </h2>
-                    <p class="font-medium text-md text-jiel md:text-lg">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique quas enim optio, dicta mollitia dolores suscipit iste ea consequuntur laborum.
-                    </p>
-                </div>
-            </div>
-
-            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portofolio/portofolio.png" alt="Landing page" width="w-full">
-                    </div>
-                    <h3 class="font-semibold text-xl text-black mt-5 mb-3">
-                        Landing page jiel
-                    </h3>
-                    <p class="font-medium text-base text-jiel">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus necessitatibus nulla illo.
-                    </p>
-                </div>
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portofolio/portofolio.png" alt="Landing page" width="w-full">
-                    </div>
-                    <h3 class="font-semibold text-xl text-black mt-5 mb-3">
-                        Landing page jiel
-                    </h3>
-                    <p class="font-medium text-base text-jiel">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus necessitatibus nulla illo.
-                    </p>
-                </div>
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portofolio/portofolio.png" alt="Landing page" width="w-full">
-                    </div>
-                    <h3 class="font-semibold text-xl text-black mt-5 mb-3">
-                        Landing page jiel
-                    </h3>
-                    <p class="font-medium text-base text-jiel">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus necessitatibus nulla illo.
-                    </p>
-                </div>
-                <div class="mb-12 p-4 md:w-1/2">
-                    <div class="rounded-md shadow-md overflow-hidden">
-                        <img src="dist/img/portofolio/portofolio.png" alt="Landing page" width="w-full">
-                    </div>
-                    <h3 class="font-semibold text-xl text-black mt-5 mb-3">
-                        Landing page jiel
-                    </h3>
-                    <p class="font-medium text-base text-jiel">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus necessitatibus nulla illo.
-                    </p>
-                </div>
-            </div>
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Portofolio</h4>
+            <h2
+              class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              My Project
+            </h2>
+            <p class="font-medium text-md text-jiel md:text-lg">
+              dibawah ini adalah project project yang sudah pernah saya buat,
+              bisa liat lansung yaa !!!
+            </p>
+          </div>
         </div>
+
+        <div
+          class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto"
+        >
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portofolio/portofolio1.png"
+                alt="Landing page"
+                width="w-full"
+              />
+              <div class="py-8 px-6">
+                <h3>
+                  <a
+                    href="https://www.figma.com/file/AsPftrk1MW00gnBGL8fG3S/J---Course?type=design&node-id=332%3A1561&mode=design&t=EHosYoxxXauBRobW-1"
+                    target="_blank"
+                    class="block mb-3 font-semibold text-xl text-black hover:text-primary truncate"
+                  >
+                    Figma Project
+                  </a>
+                </h3>
+                <p class="font-medium text-base text-jiel">
+                  membuat platform web untuk membayar semua kursus yang ada di
+                  Indonesia dalam bentuk mobile
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="dist/img/portofolio/portofolio2.jpeg"
+                alt="Landing page"
+                width="w-full"
+              />
+              <div class="py-8 px-6">
+                <h3>
+                  <a
+                    href="https://jielvayad.github.io/responsivegaming/"
+                    class="block mb-3 font-semibold text-xl text-black hover:text-primary truncate"
+                  >
+                    Responsive Web
+                  </a>
+                </h3>
+                <p class="font-medium text-base text-jiel">
+                  Web dengan tema nostalgia dari games PS 2
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!--porotfolio sec end-->
 
     <!--client sec start-->
     <section id="clients" class="pt-36 pb-32 bg-slate-800">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2">
-                        Clients
-                    </h4>
-                    <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">
-                        kerja sama dengan
-                    </h2>
-                    <p class="font-medium text-md text-jiel md:text-lg">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique quas enim optio, dicta mollitia dolores suscipit iste ea consequuntur laborum.
-                    </p>
-                </div>
-            </div>
-            <div class="w-full px-4">
-                <div class="flex flex-wrap items-center justify-center">
-                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                        <img src="dist/img/clients/logounj.svg" alt="unj">
-                    </a>
-                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                        <img src="dist/img/clients/logounj.svg" alt="unj">
-                    </a>
-                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                        <img src="dist/img/clients/logounj.svg" alt="unj">
-                    </a>
-                    <a href="#" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                        <img src="dist/img/clients/logounj.svg" alt="unj">
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-jiel mb-2">Pendidikan</h4>
+            <h2
+              class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              Universitas Negeri Jakarta
+            </h2>
+            <p class="font-medium text-md text-jiel md:text-lg">
+              Pendidikan Teknik Informatika dan Komputer
+            </p>
+          </div>
         </div>
+        <div class="w-full px-4">
+          <div class="flex flex-wrap items-center justify-center">
+            <a
+              href="#"
+              class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+            >
+              <img src="dist/img/clients/logounj.svg" alt="unj" />
+            </a>
+            <a
+              href="#"
+              class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+            >
+              <img src="dist/img/clients/logounj.svg" alt="unj" />
+            </a>
+            <a
+              href="#"
+              class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+            >
+              <img src="dist/img/clients/logounj.svg" alt="unj" />
+            </a>
+            <a
+              href="#"
+              class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8"
+            >
+              <img src="dist/img/clients/logounj.svg" alt="unj" />
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
     <!--client sec end-->
 
     <!--blog sec start-->
     <section id="blog" class="pt-36 pb-32 bg-slate-100">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2">
-                        blog
-                    </h4>
-                    <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">
-                        tulisan terkini
-                    </h2>
-                    <p class="font-medium text-md text-jiel md:text-lg">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique quas enim optio, dicta mollitia dolores suscipit iste ea consequuntur laborum.
-                    </p>
-                </div>
-            </div>
-            <div class="flex flex-wrap">
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                        <img src="https://source.unsplash.com/360x200?programming" alt="programming" class="w-full" />
-                        <div class="py-8 px-6">
-                            <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary truncate">
-                                    tips belajar programming
-                                </a>
-                            </h3>
-                            <p class="font-medium text-base text-jiel mb-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente totam corporis assumenda.</p>
-                            <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                        <img src="https://source.unsplash.com/360x200?programming" alt="programming" class="w-full" />
-                        <div class="py-8 px-6">
-                            <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary truncate">
-                                    tips belajar programming
-                                </a>
-                            </h3>
-                            <p class="font-medium text-base text-jiel mb-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente totam corporis assumenda.</p>
-                            <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
-                    <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
-                        <img src="https://source.unsplash.com/360x200?programming" alt="programming" class="w-full" />
-                        <div class="py-8 px-6">
-                            <h3>
-                                <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary truncate">
-                                    tips belajar programming
-                                </a>
-                            </h3>
-                            <p class="font-medium text-base text-jiel mb-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente totam corporis assumenda.</p>
-                            <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80">Baca selengkapnya</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+            <h2
+              class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              Tulisan Terkini
+            </h2>
+            <p class="font-medium text-md text-jiel md:text-lg">
+              Berikut adalah blog yang pernah saya buat
+            </p>
+          </div>
         </div>
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img
+                src="https://source.unsplash.com/360x200?programming"
+                alt="programming"
+                class="w-full"
+              />
+              <div class="py-8 px-6">
+                <h3>
+                  <a
+                    href="#"
+                    class="block mb-3 font-semibold text-xl text-black hover:text-primary truncate"
+                  >
+                    Untitled
+                  </a>
+                </h3>
+                <p class="font-medium text-base text-jiel mb-6">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Sapiente totam corporis assumenda.
+                </p>
+                <a
+                  href="#"
+                  class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
+                  >Baca selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img
+                src="https://source.unsplash.com/360x200?programming"
+                alt="programming"
+                class="w-full"
+              />
+              <div class="py-8 px-6">
+                <h3>
+                  <a
+                    href="#"
+                    class="block mb-3 font-semibold text-xl text-black hover:text-primary truncate"
+                  >
+                    Untitled
+                  </a>
+                </h3>
+                <p class="font-medium text-base text-jiel mb-6">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Sapiente totam corporis assumenda.
+                </p>
+                <a
+                  href="#"
+                  class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
+                  >Baca selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 lg:w-1/2 xl:w-1/3">
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <img
+                src="https://source.unsplash.com/360x200?programming"
+                alt="programming"
+                class="w-full"
+              />
+              <div class="py-8 px-6">
+                <h3>
+                  <a
+                    href="#"
+                    class="block mb-3 font-semibold text-xl text-black hover:text-primary truncate"
+                  >
+                    Untitled
+                  </a>
+                </h3>
+                <p class="font-medium text-base text-jiel mb-6">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Sapiente totam corporis assumenda.
+                </p>
+                <a
+                  href="#"
+                  class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:opacity-80"
+                  >Baca selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!--blog sec end-->
 
     <!--contact sec start-->
     <section class="pt-36 pb-32" id="contact">
-        <div class="container">
-            <div class="w-full px-4">
-                <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2">
-                        Contact
-                    </h4>
-                    <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">
-                        Hubung kami
-                    </h2>
-                    <p class="font-medium text-md text-jiel md:text-lg">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, quos.
-                    </p>
-                </div>
-            </div>
-            <form>
-                <div class="w-full lg:w-2/3 lg:mx-auto">
-                    <div class="w-full px-4 mb-8">
-                        <table for="name" class="text-base font-bold text-primary">
-                            Name
-                        </table>
-                        <input type="text" id="name" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"/>
-                    </div>
-                    <div class="w-full px-4 mb-8">
-                        <table for="email" class="text-base font-bold text-primary">
-                            Email
-                        </table>
-                        <input type="email" id="email" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"/>
-                    </div>
-                    <div class="w-full px-4 mb-8">
-                        <table for="massage" class="text-base font-bold text-primary">
-                            Pesan
-                        </table>
-                        <textarea type="text" id="name" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32">
-                            
-                        </textarea>
-                    </div>
-                    <div class="w-full px-4">
-                        <button class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500">
-                            kirim
-                        </button>
-                    </div>
-                </div>
-                </form>
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+            <h2
+              class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl"
+            >
+              Email
+            </h2>
+            <p class="font-medium text-md text-jiel md:text-lg">
+              Isi nama, email, dan pesan yang ingin anda kirim
+            </p>
+          </div>
         </div>
+        <form>
+          <div class="w-full lg:w-2/3 lg:mx-auto">
+            <div class="w-full px-4 mb-8">
+              <table for="name" class="text-base font-bold text-primary">
+                Name
+              </table>
+              <input
+                type="text"
+                id="name"
+                class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
+              />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <table for="email" class="text-base font-bold text-primary">
+                Email
+              </table>
+              <input
+                type="email"
+                id="email"
+                class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
+              />
+            </div>
+            <div class="w-full px-4 mb-8">
+              <table for="massage" class="text-base font-bold text-primary">
+                Pesan
+              </table>
+              <textarea
+                type="text"
+                id="name"
+                class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary h-32"
+              >
+              </textarea>
+            </div>
+            <div class="w-full px-4">
+              <button
+                class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-80 hover:shadow-lg transition duration-500"
+              >
+                kirim
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
     </section>
     <!--contact sec end-->
 
     <!--footer start-->
     <footer class="bg-black pt-24 pb-12">
-        <div class="container">
-            <div class="flex flex-wrap">
-                <div class="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
-                    <h2 class="font-bold text-4xl text-white mb-5">
-                        WPU
-                    </h2>
-                    <h3 class="font-bold text-2xl mb-2">
-                        Hubungi Kami
-                    </h3>
-                    <p>
-                        jielvayad261102@gmail.com
-                    </p>
-                    <p>
-                        Jl. jl
-                    </p>
-                    <p>
-                        Kota Bekasi
-                    </p>
-                </div>
-                <div class="w-full px-4 mb-12 md:w-1/3">
-                    <h3 class="font-semibold text-xl text-white mb-5">
-                        Tautan
-                    </h3>
-                    <ul class="text-jiel">
-                        <li>
-                            <a href="#beranda" class="inline-block text-base hover:text-primary mb-3">
-                                Beranda
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#about" class="inline-block text-base hover:text-primary mb-3">
-                                Tentang Saya
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#portofolio" class="inline-block text-base hover:text-primary mb-3">
-                                Portofolio
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#clients" class="inline-block text-base hover:text-primary mb-3">
-                                Clients
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#blog" class="inline-block text-base hover:text-primary mb-3">
-                                Blog
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#contact" class="inline-block text-base hover:text-primary mb-3">
-                                Contact
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="w-full px-4 mb-12 md:w-1/3">
-                    <h3 class="font-semibold text-xl text-white mb-5">
-                        kategori tulisan
-                    </h3>
-                    <ul class="text-jiel">
-                        <li>
-                            <a href="#" class="inline-block text-base hover:text-primary mb-3">
-                                programming
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="inline-block text-base hover:text-primary mb-3">
-                                programming
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="inline-block text-base hover:text-primary mb-3">
-                                programming
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="w-full pt-10 border-t border-l-stone-700">
-                <div class="flex items-center justify-center mb-5">
-                    <!--linkedin-->
-                    <a href="linkedin.com/in/jielvayadramadhan" target="_blank" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white">
-                        <svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                    </a>
-                </div>
-                <p class="font-medium text-xs text-slate-500 text-center">
-                    dibuat oleh <a href="linkedin.com/in/jielvayadramadhan" target="_blank" class="font-bold text-primary"> jiel vayad ramadhan </a> menggunakan <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500"> tailwind css </a>
-                </p>
-            </div>
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 font-medium text-slate-300 md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-5">__________</h2>
+            <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+            <p>jielvayad261102@gmail.com</p>
+            <p>Jl. jl</p>
+            <p>Kota Bekasi</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+            <ul class="text-jiel">
+              <li>
+                <a
+                  href="#beranda"
+                  class="inline-block text-base hover:text-primary mb-3"
+                >
+                  Beranda
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="inline-block text-base hover:text-primary mb-3"
+                >
+                  Tentang Saya
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#portofolio"
+                  class="inline-block text-base hover:text-primary mb-3"
+                >
+                  Portofolio
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#clients"
+                  class="inline-block text-base hover:text-primary mb-3"
+                >
+                  Clients
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#blog"
+                  class="inline-block text-base hover:text-primary mb-3"
+                >
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="inline-block text-base hover:text-primary mb-3"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">
+              Kategori Tulisan
+            </h3>
+            <ul class="text-jiel">
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-base hover:text-primary mb-3"
+                >
+                  Untitled
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-base hover:text-primary mb-3"
+                >
+                  Untitled
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="inline-block text-base hover:text-primary mb-3"
+                >
+                  Untitled
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <div class="w-full pt-10 border-t border-l-stone-700">
+          <div class="flex items-center justify-center mb-5">
+            <!--linkedin-->
+            <a
+              href="linkedin.com/in/jielvayadramadhan"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+            >
+              <svg
+                role="img"
+                width="20"
+                class="fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>LinkedIn</title>
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+            </a>
+          </div>
+          <p class="font-medium text-xs text-slate-500 text-center">
+            &copy; 2023 dibuat oleh
+            <a
+              href="https://linkedin.com/in/jielvayadramadhan"
+              target="_blank"
+              class="font-bold text-primary"
+            >
+              jiel vayad ramadhan
+            </a>
+            menggunakan
+            <a
+              href="https://tailwindcss.com"
+              target="_blank"
+              class="font-bold text-sky-500"
+            >
+              tailwind css
+            </a>
+          </p>
+        </div>
+      </div>
     </footer>
 
     <!--footer end-->
-    
 
     <script src="dist/js/script.js"></script>
-</body>
+  </body>
 </html>
